@@ -32,8 +32,8 @@ Overloaded functions
 If your function is overloaded and there is an ambiguity on which one you're trying to get the return type, you can pass additional arguments:
 
 ```ts
-declare function hello(): void
-declare function hello(a: number): number
+declare function hello(): void;
+declare function hello(a: number): number;
 
 const helloReturnValue = returnof(hello)
 type helloReturnType = typeof helloReturnValue // void
@@ -45,7 +45,7 @@ type helloReturnType = typeof helloReturnValue // number
 If there's no ambiguity, you **do not need** to pass additional arguments:
 
 ```ts
-declare function hello(a: number): number
+declare function hello(a: number): number;
 
 const helloReturnValue = returnof(hello)
 type helloReturnType = typeof helloReturnValue // number

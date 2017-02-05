@@ -1,6 +1,14 @@
 returnof
 ========
 
+Install
+-------
+
+```sh
+npm install returnof
+```
+
+
 Function return type
 --------------------
 

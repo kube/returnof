@@ -1,0 +1,10 @@
+{
+  "name": "returnof",
+  "version": "1.0.0",
+  "description": "TypeScript typeof function return helper",
+  "main": "lib/returnof.js",
+  "types": "lib/returnof.d.ts",
+  "repository": "https://github.com/kube/returnof",
+  "author": "Chris Feijoo",
+  "license": "MIT"
+}

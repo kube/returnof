@@ -23,7 +23,7 @@ const helloReturnValue = returnof(hello)
 type helloReturnType = typeof helloReturnValue // { hello: string }
 ```
 
-At runtime, `returnofHello` value will be `null`.
+At runtime, `helloReturnValue` will be `null`.
 
 
 Overloaded functions

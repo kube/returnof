@@ -17,7 +17,7 @@ At the moment TypeScript does not allow to get the **return type of a function**
 ```ts
 const hello = () => ({ hello: 'World' })
 
-type helloReturnType = typeof(hello) // ERROR
+type helloReturnType = typeof hello() // ERROR
 ```
 
 `returnof` allows you to get it, at the cost of (a little) more verbosity.

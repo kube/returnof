@@ -1,6 +1,8 @@
 returnof
 ========
 
+A workaround to get the return type of a function in TypeScript.
+
 Install
 -------
 

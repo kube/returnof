@@ -1,6 +1,6 @@
 {
   "name": "returnof",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "TypeScript typeof function return helper",
   "main": "lib/returnof.js",
   "types": "lib/returnof.d.ts",

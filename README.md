@@ -3,6 +3,28 @@ returnof
 
 A workaround to get the return type of a function in TypeScript.
 
+DEPRECATED
+==========
+
+Since [TypeScript 2.8](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html), and thanks to new [Conditional Types] and `infer` keyword, a `ReturnType` is now directly available in the language, permitting to get the return type of a function in a fully declarative way.
+
+Usage
+-----
+
+```ts
+const hello = () => ({ hello: 'World' })
+
+type HelloReturn = ReturnType<typeof hello>
+```
+
+****
+
+If for **some *strange* reason** you cannot upgrade to TypeScript 2.8+:
+
+(Some teams stay locked in the past for a while)
+
+[![](https://seeklogo.com/images/B/Back_to_the_Future-logo-B35A8AFD69-seeklogo.com.png)](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html)
+
 Install
 -------
 
